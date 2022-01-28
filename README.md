@@ -35,7 +35,8 @@ source activate deeprlnd
 
 ## Config
 
-Change the parameters in the config.yaml folder
+Change the parameters in the config.yaml file
+(you must change this variable BANANA_ENVIRONMENT to the location of your downloaded environment)
 
 ## Train the Agent:
 
