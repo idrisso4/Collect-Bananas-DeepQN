@@ -1,0 +1,13 @@
+name: deeprlnd
+channels:
+  - default
+dependencies:
+  - python=3.7.3
+  - matplotlib
+  - numpy
+  - pyyaml
+  - scipy
+  - pip
+  - pip:
+      - torch==0.4.1
+      - unityagents==0.4.0
