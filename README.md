@@ -21,9 +21,16 @@ cd Collect-Bananas-DeepQN
 ### Create conda Environment
 
 ```
-conda env create -f environment.yaml
+# Create the conda environment
+conda create -n deeprlnd python=3.6 numpy=1.13.3 scipy
 
+# Activate the new environment
 source activate deeprlnd
+
+# Install dependencies
+conda install pytorch torchvision -c pytorch
+pip install matplotlib
+pip install unityagents==0.4.0
 ```
 
 ### Download the Unity Environment
